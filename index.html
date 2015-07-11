@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  	<link rel="stylesheet" href="css/animate.css">
+
+  	<link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+	<header class="header">
+		<span class="mainnav">
+			<a href="index.html">HOME</a></li>
+			<i id="square" class="fa fa-square"></i>
+			<a href="about.html">ABOUT</a>
+		</span>
+	</header>
+
+	<h1 class="animated fadeInUp">WHAT SHOULD I READ?</h1>
+
+	<div id="questions">
+
+		<form id="readerchoice">
+			
+				<div class="animated fadeIn" id="question1">
+				<h2>How much time do you have?</h2>
+				<input type="radio" name="readtime" value="five">5 minutes
+				<br>
+				<input type="radio" name="readtime" value="ten">10 minutes
+				<br>
+				<input type="radio" name="readtime" value="tenplus">10+ minutes
+	</div>
+
+
+
+	<div class="animated fadeIn" id="question2">
+	<h2>What are you in the mood for?</h2>
+
+			<input type="radio" name="readmood" value="informative">I want to be informed.
+			<br>
+			<input type="radio" name="readmood" value="popular">I want to know what's popular.
+			<br>
+			<input type="radio" name="readmood" value="amuse">I want to be amused.
+			</div>
+
+			<br>
+			<input id="submit" type="submit" value="GO!">
+		</form>
+
+
+	</div>
+
+
+
+	<div id="result"></div>
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+		<script src="js/index.js"></script> 
+
+</body>
+
+</html>

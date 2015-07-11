@@ -1,0 +1,166 @@
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+/****/
+
+body{
+	font-family: 'Cabin', sans-serif;
+	margin: 0;
+}
+
+h1{
+	color: #83F0CC;
+	text-align: center;
+	font-size: 70px;
+	margin: 60px;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px rgb(174, 28, 72);
+}
+
+h2{
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: rgb(174, 28, 72);
+}
+
+input{
+	font-size: 15px;
+	color: white;
+	background-color: #83F0CC; 
+	padding: 10px;
+	margin: 5px;
+}
+
+
+
+
+#questions{
+	text-align: center;
+}
+
+#question1{
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+ 
+#question2, #submit {
+	display: none;
+}
+
+.header {
+	background-color: #83F0CC;
+	text-align: right;
+}
+
+.mainnav a{
+	font-size: 16px;
+	text-decoration: none;
+	margin: 6px;
+	color: white;
+}
+
+.mainnav a:hover{
+	color: rgb(174, 28, 72);
+}
+
+.mainnav i {
+	font-size: 8px;
+}
+
+
+.fa-square{
+	color: rgb(174, 28, 72);
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+
+/*Article page*/ 
+
+.tryagain{
+	text-decoration: none;
+	position: fixed;
+	left: 10px;
+	color: white;
+}
+
+.tryagain:hover{
+	color: rgb(174, 28, 72);
+}
+
+.tryagain i{
+	font-size: 25px;
+}
+
+.fa-arrow-circle-o-left{
+	color: white;
+	padding-top: 5px;
+	margin-right: 3px;
+}
+
+.fa-arrow-circle-o-left:hover{
+	border-bottom: none;
+	color: rgb(174, 28, 72);
+}
+
+/*.tryagain a{
+	margin-left: 3px;
+	margin-right: 0;
+}*/
+
+/**About Page**/
+
+.abouttext{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.abouttext a{
+	text-decoration: none;
+	color: rgb(174, 28, 72);
+}
+
+.abouttext a:hover{
+	border-bottom: 1px solid rgb(174, 28, 72);
+}
