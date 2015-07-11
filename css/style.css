@@ -1,4 +1,9 @@
-/*html, body, div, span, applet, object, iframe,
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -19,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/*article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -41,8 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*/
-/****/
 
 body{
 	font-family: 'Cabin', sans-serif;
@@ -72,8 +75,6 @@ input{
 	padding: 10px;
 	margin: 5px;
 }
-
-
 
 
 #questions{
@@ -109,7 +110,6 @@ input{
 	font-size: 8px;
 }
 
-
 .fa-square{
 	color: rgb(174, 28, 72);
 	padding-top: 15px;
@@ -144,10 +144,6 @@ input{
 	color: rgb(174, 28, 72);
 }
 
-/*.tryagain a{
-	margin-left: 3px;
-	margin-right: 0;
-}*/
 
 /**About Page**/
 
